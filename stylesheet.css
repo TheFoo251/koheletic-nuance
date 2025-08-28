@@ -1,8 +1,9 @@
 body {
-    max-width: 650px;
+    max-width: 450px;
     margin: 40px auto;
     padding: 0 10px;
     font-family: Sans-Serif;
+    line-height: 1.2;
 }
 h1,
 h2,
@@ -63,10 +64,5 @@ h3 {
 }
 
 
-@media (min-width: 650px) {
-    div.equalColumns{
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
-    }
-}
+
 }
