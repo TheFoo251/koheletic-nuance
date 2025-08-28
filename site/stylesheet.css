@@ -1,0 +1,72 @@
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font-family: Sans-Serif;
+}
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+
+/* Uses Catppuccin Latte for light and Catppuccin Mocha for dark */
+
+@media (prefers-color-scheme: light) {
+    body {
+        color: #4c4f69;
+        background: #eff1f5;
+    }
+    a:link {
+        color: #1e66f5;
+    }
+    a:visited {
+        color: #7287fd;
+    }
+
+    hr {
+    	color: #7c7f93
+    }
+
+    div.noticeText a {
+        color: #fe640b
+    }
+
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #cdd6f4;
+        background: #1e1e2e;
+    }
+    a:link {
+        color: #89b4fa;
+    }
+    a:visited {
+        color: #b4befe;
+    }
+
+    hr {
+    /* Overlay 2 */
+    	color: #9399b2
+    }
+
+	/* Peach */
+    div.noticeText a {
+        color: #fab387
+    }
+
+
+}
+
+
+@media (min-width: 650px) {
+    div.equalColumns{
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
+}
