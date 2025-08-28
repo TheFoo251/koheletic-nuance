@@ -36,7 +36,7 @@ courtesy of my father.
 My father.
 The shop had been very empty without him.
 I derived some level of satisfaction from my craft,
-but it couldn't compare to the simple happiness I working alongside him.
+but it couldn't compare to the simple happiness I had working alongside him.
 
 I looked back at the prototype I had just tested.
 I suppose he didn't have anything more to teach me.
